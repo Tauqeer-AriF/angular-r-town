@@ -1,0 +1,51 @@
+<!doctype html>
+<html ng-app="myApp">
+  <head>
+    <script src="angular.min.js"></script>
+    <script src="angular-route.min.js"></script>
+	<script src="app.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="main.css">
+  </head>
+  <body ng-controller="myController">
+      <header>
+		<div class="topnav" id="myTopnav">
+			<a href="#!main" class="active"><img src="assets/Final_Town_logo-01.png" alt="logo" id="logo"/></a>
+			<span class="links">
+  				<a href="#!about">About</a>
+  				<a href="#!menu">Menu</a>
+				<a href="#!contact">Conatct</a>
+ 		 	<span>
+		</div>
+	</header>
+
+    <div ng-view>
+	</div>
+
+	
+
+    <footer>
+		<div class="footer-container">
+			<div class="footer-row">
+  				<div class="footer-column">
+    				<img src="assets/Final_Town_logo-01.png" alt="footer-logo" id="footer-logo"/>
+  				</div>
+				<div class="footer-column">
+    				<p>697 Hilltop St,<br>Springfield, MA 01128</p>
+  				</div>
+  				<div class="footer-column">
+    				<p>MON - THU, 11am - 09pm<br>FRI - SUN, 11am - 09pm</p>
+  				</div>
+				<div class="footer-column">
+    				<a href="#" class="fa fa-facebook"></a>
+					<a href="#" class="fa fa-twitter"></a>
+					<a href="#" class="fa fa-instagram"></a>
+  				</div>
+			</div>
+		</div>
+	</footer>
+
+
+
+  </body>
+</html>
